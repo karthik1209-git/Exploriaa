@@ -1,0 +1,42 @@
+* {margin: 0;padding: 0;}    
+nav {
+background: rgb(9,9,121);
+background: linear-gradient(90deg, rgba(9,9,121,0.919502835313813) 16%, rgba(0,212,255,1) 56%, rgba(0,14,36,1) 98%);
+	width: 100%;
+}
+ul {padding: 0;margin: 0 auto;width: 80%;}
+ul li {list-style: none;
+display: inline-block;
+padding:20px;
+}
+ul li:hover {
+	background: rgb(71,35,70);
+background: radial-gradient(circle, rgba(71,35,70,1) 0%, rgba(78,123,175,1) 100%);
+	}
+ul li a {
+	color: #fff;
+text-decoration: none;
+}
+ul li p {color: #fff;text-decoration: none;}
+.toggle {width: 100%;padding: 10px 20px;background: #001f44;text-align: right;box-sizing:border-box;color: #fff;font-size: 30px;display:none;}
+
+
+
+@media only screen and (max-width: 768px) {
+  .toggle {display: block;}
+  ul {width: 100%;display: none;}
+  ul li {display: block;text-align: center;}
+  .active {display: block;}
+}
+
+.updated{
+background-color: blue;
+color: white;}
+
+body{
+	background-image: url("Hotel.jpg"); 
+background-repeat:no-repeat; 
+/* background-position:center; */
+background-size:cover;
+/* padding:10px; */
+}
