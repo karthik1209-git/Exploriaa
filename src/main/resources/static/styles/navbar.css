@@ -11,8 +11,7 @@ ul li {
 	padding:20px;
 }
 ul li:hover {
-	background: rgb(71,35,70);
-background: radial-gradient(circle, rgba(71,35,70,1) 0%, rgba(78,123,175,1) 100%);
+	background: #d9edf7;
 	}
 ul li a {
 	color: #c0c0c0;

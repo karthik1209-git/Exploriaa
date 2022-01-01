@@ -39,7 +39,9 @@
 				<div style="width: 400px;">
 						<ul>
 						<c:forEach var="listValue" items="${hotelnames}">
-							<li>${listValue}</li>
+							<li>${listValue}
+							<img src="data:image/jpg;photo,${hotel.photo}" width="240" height="300"/>
+							</li>
 						</c:forEach>
 						</ul>
 				</div>
@@ -49,7 +51,7 @@
 					</div><br>
 							<div class="form-group">
 						      <label for="Origin" style="color:white;">Hotel Name</label>
-						      <input type="text" class="form-control" placeholder="Enter hotelname:" name="hotelname" width="200px" >
+						      <input type="text" class="form-control" placeholder="Enter hotelname:" name="hotelname" width="180px" >
 						     </div>
 						     <button type="submit" class="btn btn-primary" onclick="location.href='/payment'">Book</button>
 				</div>	

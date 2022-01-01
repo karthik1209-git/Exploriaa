@@ -34,7 +34,7 @@
         </div>  
          <div class="form-group">
             <input type="text" class="form-control" name="price" placeholder="Amount" required>
-        </div>
+        </div>+
 		
 		<br>
         <div class="from-group">

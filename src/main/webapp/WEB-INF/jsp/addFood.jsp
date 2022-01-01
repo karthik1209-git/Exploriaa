@@ -30,7 +30,14 @@
             <input type="text" class="form-control" name="plates" placeholder="No.of Plates" required>
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" name="type" placeholder="Type(Indian, Italian, Chinese)" required>
+        <label for="css">Indian</label>
+            <input type="radio" class="form-control" name="type" placeholder="Type(Indian, Italian, Chinese)" value="Indian" required>
+        
+        <label for="css">Italian</label>
+            <input type="radio" class="form-control" name="type" placeholder="Type(Indian, Italian, Chinese)" value="Italian"  required>
+         
+        <label for="css">Chinese</label>
+            <input type="radio" class="form-control" name="type" placeholder="Type(Indian, Italian, Chinese)" value="Chinese" required>
         </div>  
          <div class="form-group">
             <input type="text" class="form-control" name="price" placeholder="Amount" required>

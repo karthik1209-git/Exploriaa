@@ -23,7 +23,8 @@
     <form id="Login" method="post">
 		
 		<div class="form-group">
-            <input type="text" class="form-control" name="name" placeholder="Name" required/>
+            <input type="text" class="form-control" name="name" placeholder="Name" pattern="[A-Za-z]"
+            title="Must be text in Range of A-Z,a-z" required/>
         </div>
         <div class="form-group">
             <input type="text" class="form-control" name="username" placeholder="User Name" required/>
