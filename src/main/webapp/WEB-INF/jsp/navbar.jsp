@@ -44,8 +44,8 @@
 			    Food
 			  </button>
 			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><center>
-			    <a class="dropdown-item" href="searchHotel" >Search House</a><br>
-			    <a class="dropdown-item" href="cancelReservation">Cancel Reservation</a><br>
+			    <a class="dropdown-item" href="searchFood" >Search Food Items </a><br>
+			    <a class="dropdown-item" href="cancelReservation">Cancel Order</a><br>
 			    <a class="dropdown-item" href="editReservation">Edit Reservation</a><br>
 			    <a class="dropdown-item" href="payment">Payment</a><br>
 			    </center>
@@ -61,7 +61,7 @@
 			    Travel
 			  </button>
 			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><center>
-			    <a class="dropdown-item" href="searchHotel" >Search House</a><br>
+			    <a class="dropdown-item" href="searchTransport" >Search Vehicle</a><br>
 			    <a class="dropdown-item" href="cancelReservation">Cancel Reservation</a><br>
 			    <a class="dropdown-item" href="editReservation">Edit Reservation</a><br>
 			    <a class="dropdown-item" href="payment">Payment</a><br>

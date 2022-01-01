@@ -20,6 +20,12 @@
 		<div class="btn from-middle" onclick="location.href='/editHotel'">
 				Edit Hotel
 		</div>
+		<div class="btn from-middle" onclick="location.href='/addFood'">
+				Add new Food Item
+		</div>
+		<div class="btn from-middle" onclick="location.href='/addTransport'">
+				Add new Vehical
+		</div>
 		<div class="btn from-middle" onclick="location.href='/adminlogin'">
 				Back
 		</div>

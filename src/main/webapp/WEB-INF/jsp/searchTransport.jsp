@@ -16,11 +16,11 @@
 		<div style="margin-left:3%;" >
 			<form  method="post">
 				<div class="col-sm-12 col-md-12">
-					<div><h2 style="color:white;">Search Hotels</h2>
+					<div><h2 style="color:white;">Search Vehicals</h2>
 					</div><br>
 							<div class="form-group">
-						      <label for="Origin" style="color:white;">Rating</label>
-						      <input type="text" class="form-control" placeholder="Enter rating:" name="rating" width="200px" >
+						      <label for="Origin" style="color:white;">Type</label>
+						      <input type="text" class="form-control" placeholder="Enter Type:" name="type" width="200px" >
 						     </div>
 						     <!-- <div class="form-group">
 						      <label for="Destination">Destination</label>
@@ -34,22 +34,22 @@
 		<div style="margin-left: 3%;">
 			
 			<h3 style="color: red;"> ${error}</h3>
-			<%-- <h3 style="color: green;"> ${hotelnames}</h3> --%>
+			<%-- <h3 style="color: green;"> ${vname}</h3> --%>
 			<div class="container">
 				<div style="width: 400px;">
 						<ul>
-						<c:forEach var="listValue" items="${hotelnames}">
+						<c:forEach var="listValue" items="${vname}">
 							<li>${listValue}</li>
 						</c:forEach>
 						</ul>
 				</div>
 			</div>
 				<div class="col-sm-12 col-md-12">
-					<div><h2 style="color:white;">Book Hotels</h2>
+					<div><h2 style="color:white;">Book Vehicle</h2>
 					</div><br>
 							<div class="form-group">
-						      <label for="Origin" style="color:white;">Hotel Name</label>
-						      <input type="text" class="form-control" placeholder="Enter hotelname:" name="hotelname" width="200px" >
+						      <label for="Origin" style="color:white;">Vehicle Name</label>
+						      <input type="text" class="form-control" placeholder="Enter vehicle:" name="vname" width="200px" >
 						     </div>
 						     <button type="submit" class="btn btn-primary" onclick="location.href='/payment'">Book</button>
 				</div>	

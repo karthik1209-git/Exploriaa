@@ -24,7 +24,7 @@ public class AdminLoginController {
 	//Admin login
 	@PostMapping("/adminlogin")
 	public ModelAndView processingAdminLoginform(ModelAndView modelAndView, @RequestParam String username, @RequestParam String password,ModelMap models) {
-		if(username.equalsIgnoreCase("Manager") && password.equalsIgnoreCase("root")) {
+		if(username.equalsIgnoreCase("admin") && password.equalsIgnoreCase("root")) {
 			modelAndView.setViewName("redirect:/adminDashboard");
 		}
 		else {
