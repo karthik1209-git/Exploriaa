@@ -2,12 +2,9 @@ package org.training.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Lob;
 import javax.persistence.Table;
-
-import org.hibernate.validator.constraints.NotEmpty;
 
 //Object relational Model of Hotel entity
 
@@ -33,6 +30,18 @@ public class Hotel {
 	@Column(name="price")
 	/*@NotEmpty(message = "Please provide a rating for hotel")*/
 	private String price;
+	
+	@Lob
+    @Column(name = "photo", columnDefinition="BLOB")
+    private byte[] photo;
+
+	public byte[] getPhoto() {
+		return photo;
+	}
+
+	public void setPhoto(byte[] photo) {
+		this.photo = photo;
+	}
 
 	public String getHotelname() {
 		return hotelname;

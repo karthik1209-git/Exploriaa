@@ -6,8 +6,8 @@
 <meta charset="ISO-8859-1">
 <title>Exploriaa::</title>
 <link href ="/styles/navbar.css" rel="stylesheet">
+<link href ="/styles/bootstrapmin.css" rel="stylesheet">
 <!-- <link href ="/styles/home.css" rel="stylesheet"> -->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src ="/scripts/navbar.js"></script>
 </head>
@@ -17,11 +17,74 @@
 		  <div class="toggle"><i class="fas fa-bars menu"></i></div>
 		  <ul >
 		 	<li><a href="home">Exploriaa</a></li>
-		    <li><a href="searchHotel" >Search Hotel</a></li>
+		    <li>
+		    
+		    <div class="dropdown">
+			  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    Housing
+			  </button>
+			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><center>
+			    <a class="dropdown-item" href="searchHotel" >Search House</a><br>
+			    <a class="dropdown-item" href="cancelReservation">Cancel Reservation</a><br>
+			    <a class="dropdown-item" href="editReservation">Edit Reservation</a><br>
+			    <a class="dropdown-item" href="payment">Payment</a><br>
+			    </center>
+			  </div>
+			</div>
+
+			</li>
+			
 		    <!-- <li><a href="addNewHotel">Add New Hotel</a></li> -->
-		    <li><a href="cancelReservation">Cancel Reservation</a></li> 
-		    <li><a href="editReservation">Edit Reservation</a></li> 
-		    <li><a href="payment">Payment</a></li> 
+		    
+		    
+		    <li>
+		    
+		    <div class="dropdown">
+			  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    Food
+			  </button>
+			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><center>
+			    <a class="dropdown-item" href="searchHotel" >Search House</a><br>
+			    <a class="dropdown-item" href="cancelReservation">Cancel Reservation</a><br>
+			    <a class="dropdown-item" href="editReservation">Edit Reservation</a><br>
+			    <a class="dropdown-item" href="payment">Payment</a><br>
+			    </center>
+			  </div>
+			</div>
+			
+			</li> 
+			
+		    <li>
+		    
+		    <div class="dropdown">
+			  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    Travel
+			  </button>
+			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><center>
+			    <a class="dropdown-item" href="searchHotel" >Search House</a><br>
+			    <a class="dropdown-item" href="cancelReservation">Cancel Reservation</a><br>
+			    <a class="dropdown-item" href="editReservation">Edit Reservation</a><br>
+			    <a class="dropdown-item" href="payment">Payment</a><br>
+			    </center>
+			  </div>
+			</div>
+		    
+		    </li> 
+		    <li>
+			<div class="dropdown">
+			  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    My Orders
+			  </button>
+			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><center>
+			    <a class="dropdown-item" href="searchHotel" >Search House</a><br>
+			    <a class="dropdown-item" href="cancelReservation">Cancel Reservation</a><br>
+			    <a class="dropdown-item" href="editReservation">Edit Reservation</a><br>
+			    <a class="dropdown-item" href="payment">Payment</a><br>
+			    </center>
+			  </div>
+			</div>
+			</li> 
+		    
 		    <%-- <li><a href="profile.jsp">
 		    <% if(session.getAttribute("username")!=null) {%>
 				Hi <%=session.getAttribute("username")%> !!

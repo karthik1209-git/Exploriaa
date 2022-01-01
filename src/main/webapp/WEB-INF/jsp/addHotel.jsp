@@ -34,7 +34,11 @@
         </div>  
          <div class="form-group">
             <input type="text" class="form-control" name="price" placeholder="Amount" required>
-        </div>       
+        </div>       <br>
+        <div class="from-group">
+        	<input type="file" class="form-control" name="photo" placeholder="Photo" required>
+        </div>
+        <br>
         <button type="submit" class="btn btn-primary">Add new Hotel</button>
 		<div class="forgot">
         <a href="adminDashboard"><center>Back</center></a>
